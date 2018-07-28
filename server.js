@@ -1,4 +1,4 @@
-const mongo = requrie('mongodb').MongoClient;
+const mongo = require('mongodb').MongoClient;
 const ioClient = require('socket.io').listen(4000).sockets;
 
 // connect to mongoDB
